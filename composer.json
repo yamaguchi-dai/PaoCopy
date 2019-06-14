@@ -1,0 +1,24 @@
+{
+    "name": "yamaguppy31/paocopy",
+    "description": "postgresql \\copyコマンド実行",
+    "keywords": ["laravel", "postgresql","posgre","psql","copy"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dai.yamaguchi"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaoCopy\\": "src/"
+        }
+    }
+}
